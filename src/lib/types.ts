@@ -7,6 +7,7 @@ export type MuscleId =
   | "deltoide_mediale"
   | "bicipiti"
   | "addominali"
+  | "addominali_bassi"
   | "quadricipiti"
   | "avambracci"
   // back

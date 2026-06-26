@@ -60,6 +60,14 @@ export const MUSCLES: MuscleGroup[] = [
     ],
   },
   {
+    id: "addominali_bassi", label: "Addominali Bassi", color: "#10b981", view: "front", category: "upper",
+    exercises: [
+      { id: "hanging_leg_raise", label: "Hanging Leg Raise" },
+      { id: "rev_crunch", label: "Reverse Crunch" },
+      { id: "decline_situp", label: "Decline Sit-up" },
+    ],
+  },
+  {
     id: "quadricipiti", label: "Quadricipiti", color: "#facc15", view: "front", category: "legs",
     exercises: [
       { id: "squat", label: "Squat" },

@@ -8,14 +8,16 @@ export type MuscleId =
   | "bicipiti"
   | "addominali"
   | "quadricipiti"
+  | "avambracci"
   // back
   | "dorso"
+  | "trapezio"
   | "deltoide_posteriore"
   | "tricipiti"
-  | "avambracci"
   | "lombari"
   | "femorali"
-  | "polpacci";
+  | "polpacci"
+  | "avambracci_back";
 
 /**
  * Massimali 1RM (kg) registrati per ogni esercizio, raggruppati per muscolo.

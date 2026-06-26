@@ -27,7 +27,6 @@ export function MuscleBody({ view, selected, styleFor, onSelect }: Props) {
   const silhouette = isFront ? FRONT_SILHOUETTE : BACK_SILHOUETTE;
   const musclePaths = isFront ? FRONT_MUSCLE_PATHS : BACK_MUSCLE_PATHS;
   const viewBox = isFront ? FRONT_VIEWBOX : BACK_VIEWBOX;
-  const backForearmPaths = BACK_MUSCLE_PATHS.avambracci_back_decoration;
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center min-h-[550px] bg-[#0b0f19] p-6 rounded-2xl border border-slate-800/40">
@@ -44,20 +43,6 @@ export function MuscleBody({ view, selected, styleFor, onSelect }: Props) {
             strokeWidth={10}
             strokeLinejoin="round"
           />
-
-          {/* avambracci posteriori: decorazione non cliccabile */}
-          {!isFront &&
-            backForearmPaths?.map((d, i) => (
-              <path
-                key={`deco-avb-${i}`}
-                d={d}
-                fill="#3c4658"
-                fillOpacity={0.85}
-                stroke="#111622"
-                strokeWidth={8}
-                strokeLinejoin="round"
-              />
-            ))}
 
           {/* muscoli cliccabili */}
           {(Object.keys(musclePaths) as MuscleId[]).map((id) => {

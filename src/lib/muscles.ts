@@ -83,6 +83,14 @@ export const MUSCLES: MuscleGroup[] = [
       { id: "lat_machine", label: "Lat Machine" },
     ],
   },
+  {
+    id: "trapezio", label: "Trapezio", color: "#06b6d4", view: "back", category: "upper",
+    exercises: [
+      { id: "shrug", label: "Shrug" },
+      { id: "upright_row", label: "Upright Row" },
+      { id: "face_pull_trap", label: "Face Pull" },
+    ],
+  },
   // ---- BACK ----
   {
     id: "deltoide_posteriore", label: "Deltoide Posteriore", color: "#818cf8", view: "back", category: "upper",
@@ -122,6 +130,14 @@ export const MUSCLES: MuscleGroup[] = [
       { id: "calf_piedi", label: "Calf in Piedi" },
       { id: "calf_seduto", label: "Calf da Seduto" },
       { id: "pressa_calf", label: "Pressa Calf" },
+    ],
+  },
+  {
+    id: "avambracci_back", label: "Avambracci (Posteriori)", color: "#14b8a6", view: "back", category: "upper",
+    exercises: [
+      { id: "wrist_curl_back", label: "Wrist Curl" },
+      { id: "reverse_curl", label: "Reverse Curl" },
+      { id: "farmer_walk_back", label: "Farmer Walk" },
     ],
   },
 ];

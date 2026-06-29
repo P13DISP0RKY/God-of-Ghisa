@@ -60,14 +60,6 @@ export const MUSCLES: MuscleGroup[] = [
     ],
   },
   {
-    id: "addominali_bassi", label: "Addominali Bassi", color: "#10b981", view: "front", category: "upper",
-    exercises: [
-      { id: "hanging_leg_raise", label: "Hanging Leg Raise" },
-      { id: "rev_crunch", label: "Reverse Crunch" },
-      { id: "decline_situp", label: "Decline Sit-up" },
-    ],
-  },
-  {
     id: "quadricipiti", label: "Quadricipiti", color: "#facc15", view: "front", category: "legs",
     exercises: [
       { id: "squat", label: "Squat" },
@@ -89,14 +81,6 @@ export const MUSCLES: MuscleGroup[] = [
       { id: "trazioni", label: "Trazioni" },
       { id: "rematore", label: "Rematore" },
       { id: "lat_machine", label: "Lat Machine" },
-    ],
-  },
-  {
-    id: "trapezio", label: "Trapezio", color: "#06b6d4", view: "back", category: "upper",
-    exercises: [
-      { id: "shrug", label: "Shrug" },
-      { id: "upright_row", label: "Upright Row" },
-      { id: "face_pull_trap", label: "Face Pull" },
     ],
   },
   // ---- BACK ----
@@ -140,12 +124,13 @@ export const MUSCLES: MuscleGroup[] = [
       { id: "pressa_calf", label: "Pressa Calf" },
     ],
   },
+  
   {
-    id: "avambracci_back", label: "Avambracci (Posteriori)", color: "#14b8a6", view: "back", category: "upper",
+    id: "glutei", label: "Glutei", color: "#f59e0b", view: "back", category: "legs",
     exercises: [
-      { id: "wrist_curl_back", label: "Wrist Curl" },
-      { id: "reverse_curl", label: "Reverse Curl" },
-      { id: "farmer_walk_back", label: "Farmer Walk" },
+      { id: "bulgarian_squat", label: "Bulgarian Squat" },
+      { id: "hip_thrust", label: "Hip Thrust" },
+      { id: "step_up", label: "Step Up" },
     ],
   },
 ];
